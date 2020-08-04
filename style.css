@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.vending-section,
+.make-money-container,
+.light-bulb-section {
+  background-color: rgb(145, 226, 226);
+  padding: 20px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 10px;
+}
+
+/* Vending Machine */
+
+.total {
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Make Money */
+
+.make-money-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-cell {
+  width: 120px;
+  text-align: center;
+  margin: 5px;
+  outline: none;
+}
+
+/* Light Bulb */
+
+.light-bulb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.btn {
+  width: 150px;
+  height: 35px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 3px;
+  outline: none;
+}
+
+.light-toggle {
+  background-color: #ffff66;
+}
+
+.dark {
+  background-color: grey;
+}

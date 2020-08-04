@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>JavaScript Lab 4</title>
+  </head>
+  <body>
+    <!-- #1 Vending Machine -->
+    <section class="vending-section">
+      <p class="total">Total: $<span class="total-amount">0</span>.00</p>
+      <div class="btn-container">
+        <button class="lime-cola btn" data-amount="2">
+          Lime Cola $2.00
+        </button>
+        <button class="salted-peanuts btn" data-amount="3">
+          Salted Peanuts $3.00
+        </button>
+        <button class="chocolate-bar btn" data-amount="4">
+          Chocolate Bar $4.00
+        </button>
+        <button class="fruit-gummies btn" data-amount="6">
+          Fruit Gummies $6.00
+        </button>
+      </div>
+    </section>
+    <!-- #2 Make Money -->
+    <section class="make-money-container">
+      <form class="make-money-form">
+        <label for="how-many" class="form-cell">How many?</label>
+        <input type="number" name="how-many" id="how-many" class="form-cell" />
+        <label for="coin" class="label">Which coin?</label>
+        <select name="coin" id="coin" class="form-cell">
+          <option value="Penny" name="coin">Penny</option>
+          <option value="Nickel" name="coin">Nickel</option>
+          <option value="Dime" name="coin">Dime</option>
+          <option value="Quarter" name="coin">Quarter</option>
+        </select>
+        <button class="btn">Make Money!</button>
+      </form>
+      <div class="coin-container"></div>
+    </section>
+    <!-- #3 Light Bulb -->
+    <section class="light-bulb-section">
+      <div class="light-bulb">Light Bulb</div>
+      <div class="btn-container">
+        <button class="on btn">On</button>
+        <button class="off btn">Off</button>
+        <button class="toggle btn">Toggle</button>
+        <button class="end btn">End</button>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
